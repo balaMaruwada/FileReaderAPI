@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage('Request To Clone Rebates Production Environment') {
       steps {
+        input(message: 'Comments1', id: 'Comments', ok: 'Continue')
         build 'MANUAL_ACTIVITY'
       }
     }
