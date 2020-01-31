@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Request To Clone Rebates Clone Environment') {
       steps {
-        build 'Manual Activity'
+        build 'MANUAL_ACTIVITY'
       }
     }
 
